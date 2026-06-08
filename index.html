@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar Chudasama</title>
+    <meta name="description"
+        content="Creative developer & designer crafting exceptional digital experiences. View my work, skills, and get in touch.">
+    <meta property="og:title" content="Sagar Chudasama Portfolio">
+    <meta property="og:description" content="Creative developer & designer crafting exceptional digital experiences.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <!-- Hidden SVG Symbols for 3D Tech Cubes -->
+    <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="cube-depth" viewBox="0 0 94 136">
+            <path stroke="currentColor" fill="none" stroke-opacity="0.4"
+                d="M87.36 108.43L49.1 85.38c-1.26-.76-3.3-.76-4.57 0L6.28 108.43c-1.26.77-1.26 1.99 0 2.76l38.26 23.05c1.26.76 3.3.76 4.57 0l38.25-23.05c1.26-.77 1.26-1.99 0-2.76z" />
+            <path stroke="currentColor" fill="none" stroke-opacity="0.65"
+                d="M91.09 95.7L49.29 70.5c-1.38-.83-3.61-.83-4.99 0L2.5 95.7c-1.38.83-1.38 2.18 0 3.01l41.8 25.19c1.38.83 3.61.83 4.99 0l41.8-25.19c1.38-.83 1.38-2.18 0-3.01z" />
+            <path fill="currentColor"
+                d="M2.49 72.01l41.38 24.93c1.87 1.13 4.41.87 7.06-.73l40.53-24.43c.68-.52.96-.87 1.08-1.65v16.01c0 .83-.54 1.83-1.23 2.25-6.81 4.09-39.66 23.82-41.28 24.83-1.8 1.13-4.68 1.13-6.48 0-1.63-1.02-35-21.35-41.46-25.29-.7-.43-1.08-1.33-1.08-2.52V70.13c.1.8.49 1.2 1.48 1.88z" />
+        </symbol>
+        <symbol id="cube-top" viewBox="0 0 94 136">
+            <path fill="currentColor" stroke="white" stroke-opacity="0.15" stroke-width="0.5"
+                d="M91.09 68.73L49.29 43.54c-1.38-.83-3.61-.83-4.99 0L2.5 68.73c-1.38.83-1.38 2.18 0 3.01l41.8 25.2c1.38.83 3.61.83 4.99 0l41.8-25.2c1.38-.83 1.38-2.18 0-3.01z" />
+        </symbol>
+    </svg>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">SAGAR</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+                <li><a href="#techstack" class="nav-link" data-section="techstack">Tech Stack</a></li>
+                <!-- <li><a href="#works" class="nav-link" data-section="works">Works</a></li> -->
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-grid" id="hero-grid"></div>
+        <img src="hero-gradient.svg" alt="" class="hero-gradient" aria-hidden="true">
+        <div class="hero-container">
+            <div class="hero-content">
+                <!-- VS Code Terminal Card -->
+                <div class="vscode-card reveal">
+                    <div class="vscode-wrap">
+                        <div class="vscode-terminal">
+                            <hgroup class="vscode-head">
+                                <p class="vscode-title">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                                        viewBox="0 0 48 48">
+                                        <path fill="#29b6f6"
+                                            d="M44,11.11v25.78c0,1.27-0.79,2.4-1.98,2.82l-8.82,4.14L34,33V15L33.2,4.15l8.82,4.14 C43.21,8.71,44,9.84,44,11.11z">
+                                        </path>
+                                        <path fill="#0277bd"
+                                            d="M9,33.896L34,15V5.353c0-1.198-1.482-1.758-2.275-0.86L4.658,29.239 c-0.9,0.83-0.849,2.267,0.107,3.032c0,0,1.324,1.232,1.803,1.574C7.304,34.37,8.271,34.43,9,33.896z">
+                                        </path>
+                                        <path fill="#0288d1"
+                                            d="M9,14.104L34,33v9.647c0,1.198-1.482,1.758-2.275,0.86L4.658,18.761 c-0.9-0.83-0.849-2.267,0.107-3.032c0,0,1.324-1.232,1.803-1.574C7.304,13.63,8.271,13.57,9,14.104z">
+                                        </path>
+                                    </svg>
+                                    Visual Studio Code
+                                </p>
+                            </hgroup>
+                            <div class="vscode-body">
+                                <pre class="vscode-pre">
+                                    <code>1&nbsp;</code>
+                                    <code>print</code>
+                                    <code class="vscode-cmd" data-cmd="('Heyy, Developers')"></code>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SVG Hero Title Reveal Animation -->
+                <div class="hero-svg-title reveal">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 614 320" height="320" width="614">
+                        <g id="Frame">
+                            <g id="box-figma">
+                                <!-- Main Title Text -->
+                                <g id="text">
+                                    <text x="307" y="100" text-anchor="middle"
+                                        font-family="'ProximaNova','Segoe UI',system-ui,sans-serif" font-weight="700"
+                                        font-size="58" fill="currentColor" letter-spacing="-1">I Create</text>
+                                    <text x="307" y="175" text-anchor="middle"
+                                        font-family="'ProximaNova','Segoe UI',system-ui,sans-serif" font-weight="700"
+                                        font-size="58" fill="var(--color-accent)" font-style="italic"
+                                        letter-spacing="-1">Digital</text>
+                                    <text x="307" y="250" text-anchor="middle"
+                                        font-family="'ProximaNova','Segoe UI',system-ui,sans-serif" font-weight="700"
+                                        font-size="58" fill="currentColor" letter-spacing="-1">Experiences</text>
+                                </g>
+                                <g id="box">
+                                    <path stroke-width="2" stroke="#2563EB" fill-opacity="0.05" fill="#2563EB"
+                                        d="M587 20H28V280H587V20Z" id="figny9-box"></path>
+                                    <path stroke-width="2" stroke="#2563EB" fill="white" d="M33 15H23V25H33V15Z"
+                                        id="figny9-adjust-1"></path>
+                                    <path stroke-width="2" stroke="#2563EB" fill="white" d="M33 275H23V285H33V275Z"
+                                        id="figny9-adjust-3"></path>
+                                    <path stroke-width="2" stroke="#2563EB" fill="white" d="M592 275H582V285H592V275Z"
+                                        id="figny9-adjust-4"></path>
+                                    <path stroke-width="2" stroke="#2563EB" fill="white" d="M592 15H582V25H592V15Z"
+                                        id="figny9-adjust-2"></path>
+                                </g>
+                                <g id="cursor">
+                                    <path stroke-width="2.5" stroke="white" fill="#2563EB"
+                                        d="M453.383 313L448 287L471 301L459.745 303.5L453.383 313Z" id="Vector 273">
+                                    </path>
+                                    <path fill="#2563EB" d="M587 313H469.932V306H587V313Z" id="Rectangle 786-bg"></path>
+                                    <rect fill="#2563EB" x="469.932" y="306" width="117.068" height="34" rx="2"></rect>
+                                    <text x="480" y="327" font-family="'ProximaNova','Segoe UI',system-ui,sans-serif"
+                                        font-size="11" font-weight="600" fill="white" letter-spacing="0.2">Sagar
+                                        Chudasama</text>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p class="hero-description reveal">
+                    Building beautiful, functional, and user-centric digital
+                    experiences. Powered by modern technologies.
+                    Delivering real-world impact.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE SECTION ========== -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span><i class="fa-solid fa-laptop-code"></i> Software Development</span><span class="marquee-dot">
+                    <>
+                </span>
+                <span><i class="fa-solid fa-mobile-screen-button"></i> Mobile Apps</span><span class="marquee-dot">
+                    <>
+                </span>
+                <span><i class="fa-solid fa-globe"></i> Web Development</span><span class="marquee-dot">
+                    <>
+                </span>
+                <span><i class="fa-solid fa-pen-ruler"></i> Creative Design</span><span class="marquee-dot">
+                    <>
+                </span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span><i class="fa-solid fa-laptop-code"></i> Software Development</span><span class="marquee-dot">
+                    <>
+                </span>
+                <span><i class="fa-solid fa-mobile-screen-button"></i> Mobile Apps</span><span class="marquee-dot">
+                    <>
+                </span>
+                <span><i class="fa-solid fa-globe"></i> Web Development</span><span class="marquee-dot">
+                    <>
+                </span>
+                <span><i class="fa-solid fa-pen-ruler"></i> Creative Design</span><span class="marquee-dot">
+                    <>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Turning ideas into <br><em>real-world</em> products</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="about-img-wrapper">
+                        <img src="About Me.jpg" alt="Img">
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <p class="about-intro">
+                        Hello! I'm <strong>Sagar Chudasama</strong>, a passionate developer and designer
+                        based in India. I specialize in creating clean, modern, and user-friendly
+                        digital experiences that solve real problems.
+                    </p>
+                    <p class="about-text">
+                        With a strong foundation in both design and development, I bridge the gap
+                        between aesthetics and functionality. Every project I take on is an opportunity
+                        to create something meaningful and impactful.
+                    </p>
+                    <div class="about-terminal">
+                        <div class="about-terminal-header">
+                            <div class="about-terminal-dots">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                            </div>
+                        </div>
+                        <div class="about-terminal-body">
+                            <div class="terminal-line"><span class="terminal-cmd">echo&nbsp;</span>"Name:Sagar
+                                Chudasama"</div>
+                            <div class="terminal-line"><span
+                                    class="terminal-cmd">echo&nbsp;</span>"Email:infosagarchudasama@gmail.com"</div>
+                            <div class="terminal-line"><span
+                                    class="terminal-cmd">echo&nbsp;</span>"Location:Vadodara,Gujarat,India"</div>
+                            <div class="terminal-line"><span class="terminal-cmd">echo&nbsp;</span>"Availability:Open to
+                                Work"</div>
+                            <span class="terminal-cursor"></span>
+                        </div>
+                    </div>
+                    <div class="about-socials">
+                        <span class="about-socials-title">Connect with me</span>
+                        <div class="about-socials-btns">
+                            <!-- LinkedIn -->
+                            <a href="https://in.linkedin.com/in/sagar-chudasama-537264277?trk=people-guest_people_search-card"
+                                target="_blank" rel="noopener noreferrer" class="about-social-btn"
+                                aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+                                    <path
+                                        d="M51.326,185.85h90.011v270.872H51.326V185.85z M96.934,55.278C66.127,55.278,46,75.503,46,102.049 c0,26,19.538,46.813,49.756,46.813h0.574c31.396,0,50.948-20.814,50.948-46.813C146.689,75.503,127.727,55.278,96.934,55.278z M362.339,179.487c-47.779,0-69.184,26.28-81.125,44.71V185.85h-90.038c1.192,25.411,0,270.872,0,270.872h90.038V305.448 c0-8.102,0.589-16.174,2.958-21.978c6.519-16.174,21.333-32.923,46.182-32.923c32.602,0,45.622,24.851,45.622,61.248v144.926H466 V301.398C466,218.199,421.598,179.487,362.339,179.487z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <!-- GitHub -->
+                            <a href="https://github.com/SagarChudasama-git" target="_blank" rel="noopener noreferrer"
+                                class="about-social-btn" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.8-14.9-112.8-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Services that help <br><em>brands grow</em></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal" data-number="01">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building fast, responsive, and modern websites that deliver exceptional user experiences using
+                        the latest technologies.</p>
+                    <ul class="service-tags">
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal" data-number="02">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive and visually stunning interfaces that engage users and drive conversions
+                        through research-backed design.</p>
+                    <ul class="service-tags">
+                        <li>Figma</li>
+                        <li>Prototyping</li>
+                        <li>Wireframing</li>
+                        <li>User Research</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal" data-number="03">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Developing cross-platform mobile applications that provide native-like performance and beautiful
+                        interactions.</p>
+                    <ul class="service-tags">
+                        <li>Android</li>
+                        <li>Kotlin</li>
+                        <li>Flutter</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal" data-number="04">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Creating memorable brand identities that resonate with your audience and set you apart from the
+                        competition.</p>
+                    <ul class="service-tags">
+                        <li>Logo Design</li>
+                        <li>Typography</li>
+                        <li>Color Systems</li>
+                        <li>Guidelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TECH STACK SECTION ========== -->
+    <section class="techstack" id="techstack">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Toolkit</span>
+                <h2 class="section-title">Technologies I <br><em>work with</em></h2>
+            </div>
+            <div class="techstack-grid">
+                <!-- Frontend -->
+                <div class="techstack-category reveal">
+                    <div class="techstack-category-header">
+                        <div class="techstack-category-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="techstack-items">
+                        <div class="tech-item" style="--tech-color: #E44D26;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-html5-plain cube-icon"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #264DE4;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-css3-plain cube-icon"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #F7DF1E;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-javascript-plain cube-icon"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="techstack-category reveal">
+                    <div class="techstack-category-header">
+                        <div class="techstack-category-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="techstack-items">
+                        <div class="tech-item" style="--tech-color: #3776AB;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-python-plain cube-icon"></i>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #4DB33D;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-mongodb-plain cube-icon"></i>
+                            </div>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #336791;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-java-plain cube-icon"></i>
+                            </div>
+                            <span>Java</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #FFCA28;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-firebase-plain cube-icon"></i>
+                            </div>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+                <div class="techstack-category reveal">
+                    <div class="techstack-category-header">
+                        <div class="techstack-category-icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h3>Mobile</h3>
+                    </div>
+                    <div class="techstack-items">
+                        <div class="tech-item" style="--tech-color: #7F52FF;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-kotlin-plain cube-icon"></i>
+                            </div>
+                            <span>Kotlin</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #3DDC84;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-android-plain cube-icon"></i>
+                            </div>
+                            <span>Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps & Tools -->
+                <div class="techstack-category reveal">
+                    <div class="techstack-category-header">
+                        <div class="techstack-category-icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3>DevOps & Tools</h3>
+                    </div>
+                    <div class="techstack-items">
+                        <div class="tech-item" style="--tech-color: #F05032;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-git-plain cube-icon"></i>
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #F24E1E;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-figma-plain cube-icon"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                        <div class="tech-item" style="--tech-color: #007ACC;">
+                            <div class="tech-cube-wrapper">
+                                <svg class="tech-cube-svg" viewBox="0 0 94 136">
+                                    <use href="#cube-depth" />
+                                    <use href="#cube-top" />
+                                </svg>
+                                <i class="devicon-vscode-plain cube-icon"></i>
+                            </div>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WORKS / PROJECTS SECTION ========== -->
+    
+    <section class="works" id="works">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">My Portfolio</span>
+                <h2 class="section-title">Selected <em>works</em></h2>
+            </div>
+            <div class="works-filter reveal">
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="works-grid">
+                <div class="work-card reveal" data-category="web">
+                    <div class="work-thumbnail">
+                        <div class="work-placeholder"
+                            style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="work-overlay">
+                            <a href="https://plotox.vercel.app/" target="_parent" class="work-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <span class="work-category">Web Development</span>
+                        <h3>Data Visualization Web App</h3>
+                        <p>A responsive web application for visualizing complex data sets with interactive charts and graphs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Let's work <br><em>together</em></h2>
+                    <p class="contact-description">Have a project in mind or just want to say hello? I'd love to hear
+                        from you. Let's create something amazing together.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="infosagarchudasama@gmail.com">infosagarchudasama@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span>Gujarat, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/SagarChudasama-git" class="social-link" aria-label="GitHub"
+                            target="_parent"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://in.linkedin.com/in/sagar-chudasama-537264277?trk=people-guest_people_search-card"
+                            class="social-link" aria-label="LinkedIn" target="_parent"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <!-- <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a> -->
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-text">SAGAR</span>
+                    </a>
+                    <p>Crafting digital experiences that make a lasting impact. Based in India, working worldwide.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <!-- <li><a href="#works">Works</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">Brand Identity</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Get the latest updates on my projects and insights.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" aria-label="Subscribe">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sagar Chudasama. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
